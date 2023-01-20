@@ -1,0 +1,12 @@
+const table = document.querySelectorAll("#age-table")[0];
+console.log(table);
+const labelElements = document.getElementsByTagName("label");
+console.log(labelElements);
+const firstTD = document.querySelectorAll("td")[0];
+console.log(firstTD);
+const formSearch = document.querySelectorAll('form[name="search"]');
+console.log(formSearch);
+const firstInput = document.querySelector("input");
+console.log(firstInput);
+const lastInput = document.querySelector("input[type='submit']");
+console.log(lastInput);
